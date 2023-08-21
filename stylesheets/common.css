@@ -200,14 +200,14 @@ header{
 
 
 @media (max-width: 800px) {
-  .cabecera{
-    display: flex;
-    flex-direction: row;
-    height: 200px;
-    & img{
-      height: 0%;
+    .cabecera{
+      display: flex;
+      flex-direction: row;
+      height: 200px;
+      & img{
+        display: none;
+      }
     }
-  }
   .cder{
     display: flex;
     flex-direction: column;
