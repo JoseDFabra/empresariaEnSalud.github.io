@@ -2,3 +2,10 @@
   margin-top: 5px;
   padding-left: 30px;
 }
+.content-box{
+  & ul{
+    text-align: justify;
+    line-height: 1.5rem;
+    font-size: 1.2rem;
+  }
+}

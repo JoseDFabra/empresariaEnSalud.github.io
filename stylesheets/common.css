@@ -6,7 +6,10 @@
   font-family: sans-serif;
 
 }
-
+p{
+  line-height: 1.5em;
+  font-size: 1.2rem;
+}
 header{
   display: flex;
   flex-direction: column;
@@ -199,7 +202,7 @@ header{
 
 
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .cabecera{
       display: flex;
       flex-direction: row;
@@ -356,8 +359,11 @@ header{
   .eslogan{
     font-size: 2rem;
   }
+  .eslogan-container{
+    height: 100px;
+  }
   .cabecera{
-    height: 300px;
+    height: 400px;
   }
   .navbar{
     background-color: rgba(249, 243, 255);
