@@ -1,0 +1,5 @@
+.content-box{
+  & li{
+    margin-top: 30px;
+  }
+}
