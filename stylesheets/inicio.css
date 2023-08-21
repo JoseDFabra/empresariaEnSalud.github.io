@@ -1,17 +1,46 @@
-.contenedor-carrusel{
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-}
-
-.carrusel{
+.contenedor-carrusel {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 90%;
-  min-width: 600px;
+  width: 400px;
+  height: 200px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.419);
+  border-radius: 16px;
 }
+.content-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  & h1{
+    text-align: center;
+    font-weight: 600;
+    color: rgb(69, 9, 70);
+  }
+  & h4{
+    font-style: italic;
+    font-size: ;
+  }
+}
+
+.carrusel {
+  display: flex;
+  border-radius: 16px;
+  justify-content: center;
+  overflow: hidden; /* Ocultar cualquier contenido que se desborde */
+  height: 100%; /* Asegurarse de que el carrusel tenga el mismo alto que el contenedor */
+  position: relative; /* Para posicionar correctamente las imágenes dentro */
+}
+/* CSS */
+.carrusel img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: opacity 0.3s ease; /* Agregar una transición suave para la opacidad */
+}
+
+
+
 @media (max-width: 800px){
   .carrusel{
     display: flex;
