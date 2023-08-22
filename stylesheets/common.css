@@ -292,8 +292,26 @@ header{
 
 
 @media (max-width: 650px) {
+
+
   .cabecera{
-    height: 300px;
+    height: 200px;
+    width: 100%;
+  }
+  .page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 0 8px 8px;
+    padding: 20px; /* Adding padding for better spacing */
+  
+  }
+  .cder{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
   }
   .navbar{
     background-color: rgba(249, 243, 255);
